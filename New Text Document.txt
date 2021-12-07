@@ -1,0 +1,43 @@
+Here's the discord writeup:
+
+wsOHM is a wrapped version of sOHM such that:
+• When you wrap your sOHM the amount of wsOHM you get is: sOHM / index.
+• 50 sOHM at the index of 10 gets you 5 wsOHM.
+• Upon unwrapping wsOHM the amount of OHM you get is: wsOHM x index.
+• Example: 5 wsOHM with an index of 12, unwraps to 60 sOHM
+• Price of 1 wsOHM is always approximately = price of 1 OHM x Current Index
+• You can check current index and wsOHM price at https://app.olympusdao.finance/#/dashboard
+
+You can currently obtain wsOHM by:
+• Wrapping your sOHM at abracadabra.money on ETH Mainnet
+• Buying it on sushiswap on Arbitrum L2
+• Buying it on traderjoe.xyz on Avax Chain
+
+wsOHM Contract on ETH Mainnet:
+Ω •0xca76543cf381ebbb277be79574059e32108e3e65
+
+wsOHM Contract on Arbitrum L2:
+Ω •0x739ca6D71365a08f584c8FC4e1029045Fa8ABC4B
+wsOHM-WETH | Analytics
+
+wsOHM Contract on Avax Chain:
+Ω •0x8CD309e14575203535EF120b5b0Ab4DDeD0C2073
+MIM-wsOHM | Analytics
+
+wsOHM markets are new and have thin liquidity. Expect slippage and price inefficiencies. Currently wsOHM will NOT show up on the main website's staking page.
+
+
+0x383518188c0c6d7730d91b2c03a03c837814a899
+User Avatar
+Sohm contract:
+0x04f2694c8fcee23e8fd0dfea1d4f5bb8c352111f
+
+And - if possible - could you pull the reward rate for the next rebase and give an estimate of how many sohm will be received at the next rebase?
+
+That's a little harder....
+But it's still pretty simple.
+
+# of wsohm * index * reward rate (minus) # of wsohm * current index
+
+The reward rate is here:
+https://dune.xyz/queries/74898/149850
